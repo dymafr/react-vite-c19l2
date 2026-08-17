@@ -1,7 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 
 import { lazy } from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router";
 import App from "./App";
 
 const Homepage = lazy(() => import("./pages/Homepage/Homepage"));
